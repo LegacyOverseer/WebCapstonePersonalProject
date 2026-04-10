@@ -11,8 +11,12 @@ package data;
 public class userDB {
     
     
-    public void getAllUsers(){
+    public HashMap<Integer, User> getAllUsers(){
     
+        """
+        SELECT *
+        From user
+        """;
     }
     
     
