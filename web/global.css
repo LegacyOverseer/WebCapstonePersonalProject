@@ -9,6 +9,30 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
 
 #wrapper { text-align: center; 
 			width: 960px; 
-			background-color: #CCB9A1 /*#212121 /*Black color*/; 
+			background-color: #CCB9A1;
 			margin-left: auto; 
 			margin-right: auto; }
+
+
+#floatRight { float: left; }
+
+
+.layout-container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+}
+
+.left {
+  margin-right: auto;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.right {
+  margin-left: auto;
+}

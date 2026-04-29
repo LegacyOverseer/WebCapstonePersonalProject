@@ -1,6 +1,6 @@
 <%-- 
-    Document   : index
-    Created on : Apr 9, 2026, 2:23:34 PM
+    Document   : Dashboard
+    Created on : Apr 25, 2026, 6:01:01 PM
     Author     : user
 --%>
 
@@ -12,11 +12,6 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Greetings ${user.username}</h1>
-        
-        <nav>
-            <p>Not Implemented Yet</p>
-        </nav>
-        
+        <h1>Hello World!</h1>
     </body>
 </html>

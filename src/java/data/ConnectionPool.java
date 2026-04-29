@@ -2,8 +2,6 @@ package data;
 
 /**
  *
- * @author raren
- * controls the connection pool
  */
 
 import java.sql.*;
@@ -19,7 +17,7 @@ public class ConnectionPool {
     private ConnectionPool() {
         try{
             InitialContext ic = new InitialContext();
-            dataSource = (DataSource) ic.lookup("java:/comp/env/jdbc/Bank_Database"); //The end of the string of the datasource is bytespaceDB and *MUST* be bytespaceDB, or what ever is defined in the context.xml resource name, we are sticking with scc for now. pg 405
+            dataSource = (DataSource) ic.lookup("java:/comp/env/jdbc/Bank_Database");
             System.out.println("DataSource lookup successful: "  + dataSource);
         }catch(NamingException ex) {
             System.out.println("\n\nError in Connection pool NamingException:    " + ex + "\n\n");
